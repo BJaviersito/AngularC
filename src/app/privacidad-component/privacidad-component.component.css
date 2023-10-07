@@ -1,0 +1,18 @@
+*{
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+table {
+    width: 100%;
+}
+th, td {
+    width: 50%;
+    text-align: center;
+}
+.texto-cell {
+    padding: 70px; 
+}
+.imagen-cell{
+    padding: 70px;
+}

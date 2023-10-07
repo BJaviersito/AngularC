@@ -1,0 +1,27 @@
+.contac{
+    padding: 5rem;
+    margin: auto;
+    text-align: center;
+    color: white;
+    height: 1200px;
+    width: 1200px;
+    background-color: #3F2212;
+}
+#Mensaje{
+    color: #000;
+}
+.Mensaje{
+    color: #000;
+}
+.username{
+    color: black;
+}
+#Email{
+    color: black;
+}
+.email{
+    color: white;
+}
+.contact{
+    color: white;
+}

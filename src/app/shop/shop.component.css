@@ -1,0 +1,101 @@
+span{
+    margin-left: 30px;
+}
+.producto-titulo{
+    padding: 5px;
+    font-size: small;
+    color: white;
+}
+.Inicio{
+    margin-top: 50px;
+    color: white;
+    padding: 5px;
+}
+.Shop{
+    margin-top: 50px;
+    color: white;
+}
+.resultados{
+    margin-top: 70px;
+    color: aqua;
+}
+.insta{
+    top: 35px;
+    padding: 0;
+    width: 174px;
+    height: 174px;
+    left: 0;
+    border-radius: 25%;
+}
+.Copy{
+    margin-top: 100px;
+}
+.categoria{
+    background-color: burlywood;
+    transition: background-color .2s, color .2s;
+}
+.categoria:hover{
+    background-color:#3F2212;
+    color: white;
+}
+.categoria1{
+    background-color: burlywood;
+    font-size: 15px;
+    transition: background-color .2s, color .2s;
+}
+.categoria1:hover{
+    background-color:#3F2212;
+    color: white;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+aside{
+    margin-left: 0;
+    left: 0;
+    margin-top: 400px;
+    padding: 0px;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+.wrapper aside .CategoriasD ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: background-color .2s, color .2s;
+}
+.wrapper aside .CategoriasD ul li a:hover{
+    color: aquamarine;
+}
+.n{
+    padding: 5px;
+    color:aqua;
+}
+.CategoriasD{
+    margin-left: 55px;
+}
+.CategoriasD ul li{
+    padding: 10px;
+}
+main{
+    left: 0;
+    width: 900px;
+    margin:0;
+}
+.btn-toolbar{
+    padding: 50px;
+    margin-left: 365px;
+}
+.bn {
+    margin-left: 15px;
+    width: 42px;
+    height: 38px;
+    background-color: burlywood;
+    transition: background-color .2s, color .2s;
+}
+.bn:hover{
+    background-color: #3F2212;
+    color: white;
+}

@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Press Start 2P', cursive;
+    background-position: center;
+    text-decoration: none;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+header{
+    position: relative;
+    margin-left: 20px;
+    width: 1320px;
+    height: 194px;
+}
+#Logo{
+    position: absolute;
+    right: 450px;
+    width: 396px;
+    height: 132px;
+    top: 20px;
+    background: #ec0b0b;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+.ProductoD{
+    margin-top: 310px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+}
+.redes{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+
+}
+#icono1{
+    top: 10px;
+    left: 256px;
+    cursor: pointer;    
+}
+.icono2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    right: 310px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+#icono3{
+    top: 10px;
+    left: 19px;
+    cursor: pointer;
+}
+.icono4{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    right: 125px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.icono5{
+    position: relative;
+    top: 350px;
+    left: 100px;
+}
+nav{
+    position: relative;
+    margin: auto;
+    left: 180px;
+    width: 1320px;
+    height: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.botones{
+    float:left;
+    left: 100px;
+    margin-left: 0;
+    height: 30px;
+    width: 124px;
+    background-color: #e0ecff;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+}
+.botones1{
+    float: left;
+    margin-left: 0px;
+    height: 30px;
+    width: 184px;
+    background-color: #e0ecff;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+}
+.botones1 a{
+    color: white;
+    text-decoration: none;
+}
+a .botones:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+.botones1 a:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+.botonesC{
+    margin-left: 0;
+    width: 240px;
+    height: 53px;
+    text-decoration-line: none;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+.submenu{
+    margin-left: 0;
+    display: none;
+    background-color: #e0ecff;
+    background-color: transparent;
+    line-height: 18px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    transition: background-color .2s, color .2s;
+}
+nav ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+nav ul li:hover .submenu ul a{
+    color: white;
+}
+.submenu :hover{
+    color: #3F2212;
+}
+.submenu ul li{
+    width: 166;
+    height: 36;
+}
+.slide{
+    position:absolute;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+    padding: auto;
+    width: 365px;
+    height: 365px;
+}
+.Imagenes{
+    margin: 20px;
+    margin-left: 90px;
+    border: 60px;
+    border-spacing: 60px;
+}
+.Imagen1{
+padding: 20px;
+}
+.CategoriasD{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    position: relative;
+}
+.botones2{
+    float: left;
+    margin-left: 0px;
+    margin-top: 82px;
+    height: 48px;
+    width: 140px;
+    background-color: #e0ecff;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    line-height: 48px;
+    transition: background-color .2s, color .2s;
+}
+.botones3{
+    float: left;
+    margin-left: 0px;
+    margin-top: 82px;
+    height: 48px;
+    width: 140px;
+    background-color: #e0ecff;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    line-height: 48px;
+    transition: background-color .2s, color .2s;
+}
+a .botones2:hover{
+    color: #3F2212;
+}
+a .botones2:active{
+    background: rgba(0, 128, 0, 0.945);
+}
+a .botones3:hover{
+    color: #3F2212;
+}
+a .botones3:active{
+    background: rgba(0, 128, 0, 0.945);
+}
+.insta{
+    margin: 0;
+    padding: 0;
+    width: 174px;
+    height: 174px;
+    left: 574px;
+    border-radius: 25%;
+}
