@@ -10,6 +10,7 @@ let botonesEliminar = document.querySelectorAll(".carrito-eliminar");
 const botonVaciar = document.querySelector("#carrito-accion-vaciar");
 const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
+const numerito =document.querySelector("#numerito");
 
 
 
@@ -20,6 +21,7 @@ function cargarProductosCarrito(){
       contenedorCarritoProductos.classList.remove("disabled");
       contenedorCarritoAcciones.classList.remove("disabled");
       contenedorCarritoComprado.classList.add("disabled");
+      numerito.classList.add("disabled");
    
       contenedorCarritoProductos.innerHTML ="";
 
@@ -59,10 +61,12 @@ function cargarProductosCarrito(){
       contenedorCarritoProductos.classList.add("disabled");
       contenedorCarritoAcciones.classList.add("disabled");
       contenedorCarritoComprado.classList.add("disabled");
+      numerito.classList.add("disabled");
    
    }
    actualizarBotonesEliminar();
    actualizarTotal();
+   
 }
 
 cargarProductosCarrito();

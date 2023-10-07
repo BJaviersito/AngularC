@@ -1,4 +1,6 @@
+
 <div class="perroL">
+  <form action="">
     <div class="perro">
     <div class="center">
         <div class="ear ear--left"></div>
@@ -63,13 +65,13 @@
         <div class="login">
           <label>
             <div class="fa fa-phone"></div>
-            <input class="username" type="text" autocomplete="on" placeholder="Capi@gmail.com"/>
+            <input name="email" id="username" class="username" type="text" autocomplete="on" placeholder="Capi@gmail.com" required/>
           </label>
           <label>
             <div class="fa fa-commenting"></div>
-            <input class="password" type="password" autocomplete="off" placeholder="Contraseña"/>
+            <input name="password" id="password" class="password" type="password" autocomplete="off" placeholder="Contra" required/>
           </label>
-          <button class="login-button">Login</button>
+          <button id="submit" class="login-button" type="submit"><a href="">Login</a></button>
         </div>
         <div class="social-buttons">
           <div class="social">
@@ -79,8 +81,9 @@
         <div class="footer"></div>
       </div><a class="inspiration" href="https://dribbble.com/shots/4485321-Login-Page-Homepage" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" alt="inspiration"/></a>
     </div>
+  </form>
   </div>
-  
+
 <br>
 
 <app-footer></app-footer>

@@ -287,6 +287,7 @@
     transform: scale(0.95);
   }
   .center .login .login-button {
+    text-decoration: none;
     width: calc(100% - 40px);
     margin: 20px 20px 0;
     outline: none;
@@ -296,6 +297,10 @@
   }
   .center .login .login-button:active {
     transform: scale(0.95);
+  }
+  .login .login-button a{
+    text-decoration: none;
+    color: aqua;
   }
   .center .social-buttons {
     display: flex;

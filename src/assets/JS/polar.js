@@ -1,8 +1,7 @@
-/*
-  Inspired by: "Login Page & Homepage"
-  By: Neo
-  Link: https://dribbble.com/shots/4485321-Login-Page-Homepage
-*/
+
+const $submit = document.getElementById("submit"),
+      $password = document.getElementById("password"),
+      $username = document.getElementById("username")
 
 let usernameInput = document.querySelector(".username");
 let passwordInput = document.querySelector(".password");
@@ -62,3 +61,12 @@ showPasswordButton.addEventListener("click", event => {
     });
   }
 });
+
+document.addEventListener("click", (e)=>{
+  if(e.target === $submit){
+    if($password.value !== "" && $username.value !== ""){
+      e.preventDefault();
+      window.location.href ="/app/index.html"
+    }
+  }
+})
