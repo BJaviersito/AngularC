@@ -234,3 +234,7 @@ a .botones3:active{
     left: 574px;
     border-radius: 25%;
 }
+.numerito{
+    text-decoration: none;
+    color:aqua;
+}

@@ -214,3 +214,131 @@ main{
     width: 900px;
     margin:0;
 }
+.carritotext{
+    padding: 25px;
+    margin-left: 253px;
+    margin-right: 453px;
+    left: 50px;
+}
+.carrito-comprado{
+  margin: auto;
+}
+.carrito-vacio1{
+  margin-top: 25px;
+  margin: auto;
+}
+.carrito-vacio{
+    padding: 5px;
+    margin-left: 125px;
+    width: 690px;
+    height: 60px;
+    background-color: white;
+    display:none;
+}
+.carrito-vacio p{
+    padding: 25px;
+}
+.carrito-productos{
+    padding: 3rem;
+    top: 50px;
+    margin-top: 50px;
+}
+.contenedor_carrito{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.carrito-eliminar{
+    border: 0;
+    color: #ec0b0b;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.carrito-eliminar:hover{
+    width: 45px;
+    height: 45px;
+    color: white;
+    transition: background-color .2s, color .2s;
+}
+.carrito-titulo{
+  padding: 1rem;
+}
+.carrito-titulo small{
+  padding: 1rem;
+}
+.carrito-productos{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.carrito-producto{
+    margin-bottom: 10px;
+    width: 774px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(236, 181, 109);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.carrito-producto small{
+  font-size: .75rem;
+}
+.carrito-producto-imagen{
+    width: 4rem;
+    border-radius: 1rem;
+}
+.carrito-acciones{
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+}
+.carrito-acciones-vaciar{
+  border: 0;
+  background-color: rgb(4, 119, 23);
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.carrito-acciones-vaciar:hover{
+  background-color: #3F2212;
+  color: white;
+}
+.carrito-acciones-derecha{
+  display: flex;
+}
+.carrito-acciones-total{
+  display: flex;
+  background-color:  rgb(236, 181, 109);
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-transform: uppercase;
+  gap: 1rem;
+}
+.acciones-comprar{
+  border: 0;
+  background-color: rgb(4, 119, 23);
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.acciones-comprar:hover{
+  background-color: #3F2212;
+  color: white;
+}
+.disabled{
+   display: none;
+}
+.carrito-comprado{
+  font-size: 70px;
+}
+.bi .bi-emoji{
+  color: yellow;
+}

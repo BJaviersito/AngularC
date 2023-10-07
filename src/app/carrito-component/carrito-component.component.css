@@ -40,7 +40,7 @@ main{
     left: 55px;
 }
 .seguir{
-  margin-left: 55px;
+  margin-left: 5px;
   padding: 1rem;
   background-color: burlywood;
   cursor: pointer;
@@ -75,9 +75,12 @@ main{
     padding: 25px;
 }
 .carrito-productos{
-    padding: 3rem;
-    top: 50px;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  top: 50px;
+  margin-top: 50px;
 }
 .contenedor_carrito{
   display: flex;

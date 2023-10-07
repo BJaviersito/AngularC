@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CargarScriptsService } from '../cargar-scripts.service';
 
 @Component({
   selector: 'app-carrito-component',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./carrito-component.component.css']
 })
 export class CarritoComponentComponent {
+  constructor(private _CargaScripts:CargarScriptsService)
+  {
+    _CargaScripts.Carga(["/carrito"]);
+  }
+
 
 }

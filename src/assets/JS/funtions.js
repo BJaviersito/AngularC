@@ -133,7 +133,7 @@ const productos = [
     {
         id: "Llavero-14",
         titulo: "Kenny",
-        imagen: "./IMG/kenny.webp",
+        imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/IMG_20230731_094810_177-600x600.jpg",
         categoria: {
             nombre: "South-Park",
             id: "south-park"
@@ -143,7 +143,7 @@ const productos = [
     {
         id: "Llavero-15",
         titulo: "Killjoy",
-        imagen: "./IMG/killjoy.jpg",
+        imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/358803679_814358170346045_6052441502856187021_n-300x300.jpg",
         categoria: {
             nombre: "Valorant",
             id: "valorant"
@@ -152,18 +152,18 @@ const productos = [
     },
     {
         id: "Llavero-16",
-        titulo: "Link",
-        imagen: "./IMG/link.jpg",
+        titulo: "Gardevoir",
+        imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/368155540_277889284948350_6009203286587275587_n-300x300.jpg",
         categoria: {
-            nombre: "Accion",
-            id: "accion"
+            nombre: "Pokemon",
+            id: "pokemon"
         },
-        precio: 3.50
+        precio: 3.75
     },
     {
         id: "Llavero-17",
         titulo: "Neon",
-        imagen: "./IMG/neon.jpg",
+        imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/IMG_20230703_130626_098-300x300.jpg",
         categoria: {
             nombre: "Valorant",
             id: "valorant"
@@ -173,7 +173,7 @@ const productos = [
     {
         id: "Llavero-18",
         titulo: "Rayquaza",
-        imagen: "./IMG/rayquaza.webp",
+        imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/356617186_233879059449604_201312758164377415_n-1-300x300.jpg",
         categoria: {
             nombre: "Pokemon",
             id: "pokemon"
@@ -183,7 +183,7 @@ const productos = [
     {
       id: "Llavero-19",
       titulo: "Sova",
-      imagen: "./IMG/sova.jpg",
+      imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/Picsart_23-07-04_14-46-25-498-300x300.jpg",
       categoria: {
           nombre: "Valorant",
           id: "valorant"
@@ -193,7 +193,7 @@ const productos = [
      {
       id: "Llavero-20",
       titulo: "Wendy",
-      imagen: "./IMG/wendy.webp",
+      imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/353978278_284382037305324_3281078043332228700_n.jpg",
       categoria: {
           nombre: "South-Park",
           id: "south-park"
@@ -203,7 +203,7 @@ const productos = [
    {
     id: "Llavero-21",
     titulo: "Stan",
-    imagen: "./IMG/stan.webp",
+    imagen: "https://capi-capi.citasmedicasmaryury.com/wp-content/uploads/2023/08/353647269_815524296815408_7839298406177843663_n.jpg",
     categoria: {
         nombre: "South-Park",
         id: "south-park"
